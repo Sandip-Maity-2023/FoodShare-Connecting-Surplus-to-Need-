@@ -1,4 +1,4 @@
-#1.User Authentication and Authorization:
+//1.User Authentication and Authorization:
 // User authentication example using JWT
 const jwt = require('jsonwebtoken');
 
@@ -19,7 +19,7 @@ console.log(token);
 const decoded = verifyToken(token);
 console.log(decoded);
 
-#2.Food Listing and Matching:
+//#2.Food Listing and Matching:
 
 // Food listing and matching example
 const surplusFoods = [
@@ -38,7 +38,7 @@ const preferences = { dietaryRestrictions: [], preferences: [] };
 const availableFoods = findAvailableFoods(location, preferences);
 console.log(availableFoods);
 
-#3.Location-based Services:
+//3.Location-based Services:
 // Location-based services example
 function calculateDistance(location1, location2) {
     // Implement distance calculation algorithm (e.g., using Haversine formula)
@@ -51,7 +51,7 @@ const location2 = { x: 15, y: 25 };
 const distance = calculateDistance(location1, location2);
 console.log(distance);
 
-#4.Location-based Services:
+//4.Location-based Services:
 
 // Location-based services example
 function calculateDistance(location1, location2) {
@@ -65,7 +65,7 @@ const location2 = { x: 15, y: 25 };
 const distance = calculateDistance(location1, location2);
 console.log(distance);
 
-#5.Food Quality and Safety Assurance:
+//#5.Food Quality and Safety Assurance:
 // Food quality and safety assurance example
 function checkFoodQuality(food) {
     // Implement checks for food expiration date, proper handling, etc.
@@ -78,7 +78,7 @@ const foodItem = { id: 1, name: 'Apples', quantity: 10, expiryDate: '2024-05-01'
 const isFoodSafe = checkFoodQuality(foodItem);
 console.log(isFoodSafe);
 
-#6.Rating and Feedback System:
+//#6.Rating and Feedback System:
 // Rating and feedback system example
 class Rating {
     constructor() {
@@ -101,7 +101,7 @@ foodRating.addRating(123, 4);
 foodRating.addRating(456, 5);
 console.log(foodRating.getAverageRating());
 
-#7.Optimization Algorithms:
+//#7.Optimization Algorithms:
 // Optimization algorithms example
 function optimizeMatching(foodItems, recipients) {
     // Implement optimization algorithm to minimize food waste and maximize utilization
@@ -115,7 +115,7 @@ const recipients = ['User A', 'User B'];
 const optimizedMatching = optimizeMatching(foodItems, recipients);
 console.log(optimizedMatching);
 
-#8.// Optimization algorithms example
+//#8. Optimization algorithms example
 function optimizeMatching(foodItems, recipients) {
     // Implement optimization algorithm to minimize food waste and maximize utilization
     // For example, consider recipient preferences and proximity to surplus food providers
@@ -128,7 +128,7 @@ const recipients = ['User A', 'User B'];
 const optimizedMatching = optimizeMatching(foodItems, recipients);
 console.log(optimizedMatching);
 
-#9.// AI-enabled recommendations example
+//#9. AI-enabled recommendations example
 class RecommendationSystem {
     static recommendFood(preferences) {
         // Implement recommendation algorithm based on user preferences and past behavior
